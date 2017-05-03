@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Garden Workshop</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>GardenWorkshop <img src="images/garden.jpg" width="130" height="140" alt="Garden Workshop" class="badge"></h1>
+      <nav>
+	    <ul>
+		  <li><a href="/">Home</a></li>
+		  <li><a href="/about_us.html">About Us</a></li>
+		  <li><a href="/the_plants.html">The Plants</a></li>
+      <li><a href="/discovery.html">Discovery</a></li>
+	    </ul>
+      </nav>
+    </header>
+    </br>
+    </br>
+    </br>
+    <div id="body">
+    <div id="lunbo">
+    <ul>
+        <li><a href="about_us.html"><img src="images/1.jpg"></a></li>
+        <li><a href="the_plants.html"><img src="images/2.jpg"></a></li>
+        <li><a href="the_plants.html"><img src="images/3.jpg"></a></li>
+    </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    var li=document.getElementById('lunbo').getElementsByTagName("li");
+    var num=0;
+    var len=li.length;
+
+    setInterval(function()
+    {
+        li[num].style.display="none";
+        num=++num==len?0:num;
+        li[num].style.display="inline-block";
+
+    },3000);
+</script>
+    <footer>
+      <div class="copyright">
+        <p>
+        </p>
+        <p>
+          Contact with us
+          <a href="https://www.facebook.com/LLGSNC/?ref=br_rs"><img src="images/facebook.png" width="48" height="48"></a>
+          <a href="https://twitter.com/plantshoppe"><img src="images/twitter.png" width="48" height="48"></a>
+          <a href="https://www.youtube.com/channel/UC7oOq8BmqaDCUpKxdpZ_SBQ"><img src="images/youtube.png" width="48" height="48"></a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
