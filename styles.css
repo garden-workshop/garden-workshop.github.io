@@ -135,11 +135,70 @@ footer {
     background-color: black;
     color: white;
 }
-
 #body{
-	max-width: 1000px;margin: 0 auto;
+	max-width: 1000px;
+	margin: 0 auto;
+}  
+#lunbo ul li{
+	width:100%;
+	list-style: none;
+	width:889px; 
+	height:500px;
+	background-color: ＃ffe6e6;
+	text-align: center;
+}   
+#lunbo ul li:not(:first-child){
+	display: none;
 }
-    
-#lunbo ul li{width:100%;list-style: none;width:889px; height:500px;background-color: #f00;text-align: center;}
-    
-#lunbo ul li:not(:first-child){display: none;}
+#menu{
+	overflow:hidden;
+	width:600px;
+	height:40%;
+	overflow:hidden;
+}
+#menu ul{
+	margin:0;
+	padding:0;
+}
+#menu li{
+	list-style-type:none;
+	display:block;
+	width:600px;
+}
+#menu li a{
+	display:block;
+	text-decoration:none;
+	width:100%;
+	line-height:20px;
+}
+#menu li a span{
+	display:none;
+	color:#0aaa35;
+	font-size:16px;
+	border-bottom:1px dashed #EEE;
+	width:600px;
+	margin:0;
+	padding:0;
+}
+#menu li a:hover{
+	background:#FFF;
+}
+#menu li:hover span,#menu li a:hover span{
+	display:block;
+	cursor:pointer;
+}
+#menu h1{
+	font-family:rockwell extra bold;
+	margin:0;
+	color:#0b5b2c;
+	font-size:20px;
+	padding:0;
+}
+#menu li span img{
+	float:left;
+	margin:3px 5px 0 0;
+	border:1px solid #EEE;
+}
+
+
+
